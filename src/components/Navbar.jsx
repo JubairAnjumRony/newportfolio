@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
+
+import './../index.css'
 import HeroSection from './HeroSection';
 import AboutMeSection from './AboutMeSection';
-import ContactSection from './ContactSection';
 import SkillsSection from './SkillsSection';
-import ProjectsSection from './ProjectsSection';
-import './../index.css'
+import ProjectSection from './ProjectSection';
+import ContactSection from './ContactSection';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -132,7 +133,7 @@ const Navbar = () => {
                 <SkillsSection />
             </div>
             <div id="projects" className="">
-                <ProjectsSection />
+                <ProjectSection />
             </div>
             <div id="contact" className="">
                 <ContactSection />
