@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
-
 import './../index.css'
 import HeroSection from './HeroSection';
 import AboutMeSection from './AboutMeSection';
@@ -85,6 +84,9 @@ const Navbar = () => {
                 <div
                     className={`${menuOpen ? 'left-0' : '-left-full'
                         } flex flex-col navbar absolute duration-500    shadow-md z-50 pt-8 mt-8`}
+                    // className={`${
+                    //     menuOpen ? 'top-[80px]' : '-top-full'
+                    // } w-full flex flex-col navbar absolute bg-[#0F172A] duration-300 z-50  shadow-md z-50 pt-8 mt-8`}
                 >
 
                          
